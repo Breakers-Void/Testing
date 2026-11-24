@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080d1d" />
+  <title>GovEase AI — Government, made easier.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="grid-overlay"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="GovEase AI home">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span>GovEase<span class="brand-ai">.AI</span></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#services">Services</a>
+      <a class="nav-link" href="#submit">Submit complaint</a>
+      <a class="nav-link" href="#track">Track status</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="text-button" id="officerOpen">Officer portal <span>↗</span></button>
+      <a class="button button-small button-primary" href="#submit">Get started <span>→</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="live-dot"></span> SMARTER PUBLIC SERVICES <span class="eyebrow-line"></span></div>
+        <h1>Government,<br><span class="gradient-text">made easier.</span></h1>
+        <p class="hero-description">One simple place to raise concerns, follow progress, and connect with the right department. Less paperwork. More progress.</p>
+        <div class="hero-actions">
+          <a class="button button-primary button-large" href="#submit">Raise a complaint <span>↗</span></a>
+          <a class="button button-ghost button-large" href="#track"><span class="play-icon">▷</span> Track a request</a>
+        </div>
+        <div class="hero-proof">
+          <div class="avatar-stack"><span>AS</span><span>RK</span><span>PM</span><span>+</span></div>
+          <div><strong>Public service, simplified</strong><small>Designed around citizens</small></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-2">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="orbit-node node-a">✦</div><div class="orbit-node node-b">⌘</div><div class="orbit-node node-c">↗</div>
+        <div class="visual-card main-visual-card">
+          <div class="visual-top"><span class="tiny-label"><span class="live-dot"></span> GOV EASE INTELLIGENCE</span><span class="three-dots">•••</span></div>
+          <div class="ai-core"><div class="core-ring ring-one"></div><div class="core-ring ring-two"></div><div class="core-center"><span>✳</span></div><div class="core-spark spark-one"></div><div class="core-spark spark-two"></div></div>
+          <div class="visual-title">Your request, understood.</div>
+          <div class="visual-subtitle">AI-assisted routing is ready</div>
+          <div class="progress-track"><span></span></div>
+          <div class="visual-foot"><span>INTELLIGENT ASSISTANCE</span><b>ACTIVE <i class="live-dot"></i></b></div>
+        </div>
+        <div class="float-card float-card-top"><span class="float-icon purple">✧</span><div><b>Smart routing</b><small>Right department, faster</small></div><span class="check">✓</span></div>
+        <div class="float-card float-card-bottom"><span class="float-icon blue">⌁</span><div><b>Live updates</b><small>Stay in the loop</small></div><span class="pulse-mini"></span></div>
+        <div class="visual-caption">A clearer path from concern to resolution.</div>
+      </div>
+    </section>
+
+    <section class="metrics section-wrap reveal" aria-label="Platform highlights">
+      <div class="metric"><span class="metric-icon">◎</span><div><strong data-count="24">0</strong><small>/7 request access</small></div></div>
+      <div class="metric"><span class="metric-icon">✳</span><div><strong>AI-powered</strong><small>smart categorization</small></div></div>
+      <div class="metric"><span class="metric-icon">↗</span><div><strong>One platform</strong><small>connected services</small></div></div>
+      <div class="metric"><span class="metric-icon">⌁</span><div><strong>Clear updates</strong><small>every step of the way</small></div></div>
+    </section>
+
+    <section class="section-wrap section-block" id="services">
+      <div class="section-heading reveal"><div><div class="eyebrow">WHAT YOU CAN DO</div><h2>Public services, <span class="gradient-text">without the runaround.</span></h2></div><p>Simple tools that make it easier to get help and easier for teams to respond.</p></div>
+      <div class="service-grid">
+        <article class="service-card reveal"><div class="service-icon icon-blue">↗</div><div class="card-kicker">01 / CITIZEN SERVICES</div><h3>Raise a concern</h3><p>Tell us what's happening. Your request is organized and directed to the appropriate team.</p><a href="#submit" class="card-link">Submit a complaint <span>↗</span></a><div class="card-glow"></div></article>
+        <article class="service-card reveal delay-1"><div class="service-icon icon-purple">⌕</div><div class="card-kicker">02 / TRANSPARENCY</div><h3>Track progress</h3><p>Use your reference number to see the latest status and keep up with important updates.</p><a href="#track" class="card-link">Check your status <span>↗</span></a><div class="card-glow"></div></article>
+        <article class="service-card reveal delay-2"><div class="service-icon icon-cyan">✳</div><div class="card-kicker">03 / SMART ASSISTANCE</div><h3>AI-assisted support</h3><p>Get help understanding your request and identifying the right department to handle it.</p><a href="#assistant" class="card-link">Meet the assistant <span>↗</span></a><div class="card-glow"></div></article>
+      </div>
+    </section>
+
+    <section class="submit-section section-wrap section-block" id="submit">
+      <div class="section-heading reveal"><div><div class="eyebrow">WE'RE HERE TO HELP</div><h2>Let's get it <span class="gradient-text">moving.</span></h2></div><p>Share a few details. We'll create a reference ID you can use to follow your request.</p></div>
+      <div class="form-layout">
+        <div class="form-side reveal"><div class="form-side-icon">✳</div><h3>Your voice<br>matters here.</h3><p>Every submission is important. Please share clear details so the right team can understand the issue.</p><div class="form-side-note"><span class="live-dot"></span> Secure demo submission <span class="side-note-line"></span></div><div class="side-decoration">GOV<br>EASE<span>.</span></div></div>
+        <form class="complaint-form reveal delay-1" id="complaintForm">
+          <div class="form-top"><div><span class="card-kicker">NEW REQUEST</span><h3>Complaint details</h3></div><span class="step-pill">STEP 01 <i>—</i> 01</span></div>
+          <div class="field-row"><label>Full name<input name="name" type="text" placeholder="e.g. Aanya Sharma" required minlength="2"></label><label>Email address<input name="email" type="email" placeholder="you@example.com" required></label></div>
+          <div class="field-row"><label>Phone number <span class="optional">OPTIONAL</span><input name="phone" type="tel" placeholder="+91 98765 43210"></label><label>Location / area<input name="location" type="text" placeholder="City, area or ward" required></label></div>
+          <label>Choose a department<select name="department" required><option value="">Select the relevant department</option><option>Roads & Infrastructure</option><option>Water Supply</option><option>Electricity</option><option>Sanitation</option><option>Public Health</option><option>Other / Not sure</option></select></label>
+          <label>Describe your concern<textarea name="description" rows="4" placeholder="Tell us what happened, where it happened, and any details that may help..." required minlength="12"></textarea><span class="field-hint">Please don't include passwords or sensitive personal information.</span></label>
+          <div class="form-bottom"><span><i class="secure-icon">⌑</i> Your information stays in this demo browser.</span><button class="button button-primary" type="submit">Submit request <span>↗</span></button></div>
+          <div class="form-message" id="formMessage" role="status"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="track-section section-wrap section-block" id="track">
+      <div class="track-panel reveal">
+        <div class="track-copy"><div class="eyebrow">NO MORE GUESSWORK</div><h2>Know where<br>things <span class="gradient-text">stand.</span></h2><p>Enter the reference ID you received after submitting a request to see its latest demo status.</p></div>
+        <form class="track-form" id="trackForm"><label for="trackId">YOUR REFERENCE ID</label><div class="track-input-wrap"><input id="trackId" placeholder="e.g. GE-8F2A91" required><button type="submit" aria-label="Track request">→</button></div><small>Try a reference ID generated by this browser.</small><div id="trackResult" class="track-result" aria-live="polite"></div></form>
+        <div class="track-decoration">⌁</div>
+      </div>
+    </section>
+
+    <section class="assistant-section section-wrap section-block" id="assistant">
+      <div class="assistant-card reveal">
+        <div class="assistant-orb"><span>✳</span><i></i><i></i></div>
+        <div class="assistant-content"><div class="eyebrow">YOUR DIGITAL GUIDE</div><h2>Not sure where to start?</h2><p>GovEase Assistant can help you think through your concern and choose a department. This demo uses simple local suggestions, not a live AI service.</p><button class="button button-ghost" id="assistantButton">Ask the assistant <span>↗</span></button></div>
+        <div class="assistant-chat" id="assistantChat"><div class="chat-label"><span class="live-dot"></span> GOV EASE ASSISTANT</div><div class="chat-bubble">Hi there! What do you need help with today?</div><div class="quick-prompts"><button data-prompt="There is garbage not being collected in my area">Garbage collection</button><button data-prompt="There is a water supply issue">Water supply</button><button data-prompt="A road has potholes and needs repair">Road damage</button></div><div class="chat-response" id="chatResponse"></div></div>
+      </div>
+    </section>
+
+    <section class="officer-section section-wrap section-block hidden" id="officer">
+      <div class="section-heading"><div><div class="eyebrow">INTERNAL OVERVIEW / DEMO</div><h2>Officer <span class="gradient-text">dashboard.</span></h2></div><button class="button button-ghost" id="citizenView">← Back to citizen view</button></div>
+      <div class="officer-stats"><div><small>TOTAL REQUESTS</small><strong id="totalCount">0</strong></div><div><small>UNDER REVIEW</small><strong id="reviewCount">0</strong></div><div><small>RESOLVED</small><strong id="resolvedCount">0</strong></div></div>
+      <div class="table-wrap"><table><thead><tr><th>REFERENCE</th><th>CITIZEN</th><th>DEPARTMENT</th><th>ISSUE</th><th>STATUS</th><th>UPDATE</th></tr></thead><tbody id="officerRows"></tbody></table></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="section-wrap footer-inner"><a class="brand" href="#home"><span class="brand-mark"><i></i><i></i><i></i></span><span>GovEase<span class="brand-ai">.AI</span></span></a><span>Making public services simpler, one request at a time.</span><span class="footer-right">A HACKATHON DEMO <b>✳</b> 2026</span></div></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
